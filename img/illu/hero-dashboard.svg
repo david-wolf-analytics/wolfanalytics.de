@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 380" role="img" aria-label="Dashboard mit Diagrammen und Häkchen">
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#14B8A6" stop-opacity=".45"/><stop offset="1" stop-color="#14B8A6" stop-opacity="0"/></linearGradient></defs>
+<rect x="20" y="30" width="420" height="300" rx="18" fill="#13294b" stroke="#2a4470"/>
+<rect x="20" y="30" width="420" height="40" rx="18" fill="#1b3560"/><rect x="20" y="52" width="420" height="18" fill="#1b3560"/>
+<circle cx="46" cy="50" r="6" fill="#ef6b6b"/><circle cx="66" cy="50" r="6" fill="#f2c14e"/><circle cx="86" cy="50" r="6" fill="#14B8A6"/>
+<rect x="44" y="92" width="110" height="64" rx="10" fill="#0B1F3A"/><text x="58" y="118" fill="#9fb0c7" font-family="Arial" font-size="11">Conversions</text><text x="58" y="144" fill="#fff" font-family="Arial" font-size="22" font-weight="bold">1.284</text>
+<rect x="170" y="92" width="110" height="64" rx="10" fill="#0B1F3A"/><text x="184" y="118" fill="#9fb0c7" font-family="Arial" font-size="11">Tracking</text><text x="184" y="144" fill="#14B8A6" font-family="Arial" font-size="22" font-weight="bold">sauber</text>
+<rect x="296" y="92" width="120" height="64" rx="10" fill="#0B1F3A"/><text x="310" y="118" fill="#9fb0c7" font-family="Arial" font-size="11">Consent Mode</text><text x="310" y="144" fill="#fff" font-family="Arial" font-size="18" font-weight="bold">v2 ✓</text>
+<rect x="44" y="172" width="372" height="136" rx="10" fill="#0B1F3A"/>
+<path d="M60 280 L110 262 L160 270 L210 236 L260 244 L310 206 L360 214 L400 186 L400 296 L60 296Z" fill="url(#g)"/>
+<path d="M60 280 L110 262 L160 270 L210 236 L260 244 L310 206 L360 214 L400 186" fill="none" stroke="#14B8A6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M60 288 L110 284 L160 286 L210 278 L260 282 L310 272 L360 276 L400 268" fill="none" stroke="#4c6386" stroke-width="2" stroke-dasharray="5 5"/>
+<g fill="#14B8A6"><circle cx="210" cy="236" r="4"/><circle cx="310" cy="206" r="4"/><circle cx="400" cy="186" r="5"/></g>
+<circle cx="440" cy="300" r="52" fill="#14B8A6"/><path d="M416 300 l16 16 l30 -32" fill="none" stroke="#05211d" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img" aria-label="Google-Maps-Eintrag mit Standortnadel und Sternebewertung">
+<rect x="20" y="20" width="360" height="220" rx="16" fill="#e8f6f3"/>
+<path d="M20 170 Q120 140 200 175 T380 150" fill="none" stroke="#c9e8e2" stroke-width="18"/>
+<path d="M120 20 Q140 120 110 240" fill="none" stroke="#fff" stroke-width="12"/><path d="M20 90 H380" stroke="#fff" stroke-width="10"/>
+<g transform="translate(150 40)"><path d="M40 0 a40 40 0 0 1 40 40 c0 30 -40 70 -40 70 s-40 -40 -40 -70 a40 40 0 0 1 40 -40z" fill="#0B1F3A"/><circle cx="40" cy="40" r="16" fill="#14B8A6"/></g>
+<rect x="210" y="130" width="160" height="92" rx="12" fill="#fff" stroke="#e3e9f1" stroke-width="2"/>
+<rect x="226" y="146" width="100" height="10" rx="5" fill="#0B1F3A"/>
+<g fill="#f2c14e" font-family="Arial" font-size="16"><text x="226" y="180">★★★★★</text></g>
+<rect x="226" y="192" width="70" height="7" rx="3.5" fill="#c9d3e0"/><rect x="226" y="204" width="110" height="7" rx="3.5" fill="#c9d3e0"/>
+</svg>
