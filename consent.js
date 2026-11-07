@@ -19,6 +19,18 @@
   function save(c) {
     try { localStorage.setItem(KEY, JSON.stringify(c)); } catch (e) {}
   }
+  var GTM_ID = "GTM-KB98TNZL";
+  var gtmLoaded = false;
+  function loadGTM() {
+    if (gtmLoaded) return;
+    gtmLoaded = true;
+    window.dataLayer.push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+    var s = document.createElement("script");
+    s.async = true;
+    s.src = "https://www.googletagmanager.com/gtm.js?id=" + GTM_ID;
+    document.head.appendChild(s);
+  }
+
   function apply(c) {
     gtag("consent", "update", {
       analytics_storage: c.analytics ? "granted" : "denied",
@@ -27,6 +39,8 @@
       ad_personalization: c.marketing ? "granted" : "denied"
     });
     window.dataLayer.push({ event: "consent_update", consent_analytics: c.analytics, consent_marketing: c.marketing });
+    // Tag Manager erst nach Einwilligung laden (Basic Consent Mode)
+    if (c.analytics || c.marketing) loadGTM();
   }
   function choose(analytics, marketing) {
     var c = { v: VERSION, ts: Date.now(), analytics: !!analytics, marketing: !!marketing };
